@@ -31,7 +31,7 @@ alert(5);
 
 function strict() {
     // Function-level strict mode syntax
-    'use strict';
+    //'use strict';
     function nested() { return 'And so am I!'; }
     return "Hi!  I'm a strict mode function!  " + nested();
   }
@@ -46,7 +46,6 @@ function strict() {
   const perone = 'Slava';
   const bool = true;
   
-  console.log(something);
 
   let und;
   console.log(und);

@@ -1,17 +1,27 @@
-"use sctict";
+"use strict";
 
-//alert ('Hello world');
+console.log('arr' + " - object");
+console.log(4 + +" 5");
 
-//const result = confirm("Do you hear me?");
-//console.log(result);
+let incr = 10,
+    decr = 10;
 
-//const answer = +prompt ("Вы традиционной ориентации?","Немножко");
-//console.log(answer +5);
+// ++incr;
+// --decr;
 
-const answers = [];
+console.log(incr++);
+console.log(decr--);
 
-// answers[0] = prompt('Whats your name?');
-// answers[1] = prompt('Age?');
-// answers[2] = prompt('Born?');
+console.log(5%2);
 
-console.log(typeof(answers));
+console.log(2*4 === 8);
+
+//&& - And
+//|| - Or
+
+const isChesked = true,
+      isClosed = false;
+
+console.log(isChesked || isClosed); 
+
+//! - Оператор отрицания
